@@ -1,6 +1,7 @@
 import React from 'react';
 
 function TweetForm() {
+  const plcHolder = "What are you humming about?";
   return (
     <h1>
       <section class="error-container"><i class="fas fa-exclamation-triangle"></i>
@@ -8,7 +9,7 @@ function TweetForm() {
       </section>
       <section class="newtweet">
         <form method="post" action="/tweets" class="newtweet__form">
-          <textarea class="form__textarea" name="text" placeholder="What are you humming about?"></textarea>
+          <textarea class="form__textarea" name="text" placeholder={plcHolder}></textarea>
           <input type="submit" value="Tweet" class="form__input" />
           <span class="form__counter">140</span>
         </form>
