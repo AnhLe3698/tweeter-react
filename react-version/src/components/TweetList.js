@@ -21,7 +21,7 @@ function TweetList() {
   };
 
   return (
-    <section class="tweets">
+    <section className="tweets">
         <Tweet {...tweet}/>
         <Tweet {...tweet1}/>
     </section>

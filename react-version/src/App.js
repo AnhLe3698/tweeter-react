@@ -7,16 +7,14 @@ import TweetForm from './components/TweetForm';
 
 function App() {
   return (
-    <div className="App">
-      <body>
-        <Navigation />
-        <Profile />
-        <main className='container'>
-          <TweetForm />
-          <TweetList />
-        </main>
-      </body>
-    </div>
+    <body className="App">
+      <Navigation />
+      <Profile />
+      <main className='container'>
+        <TweetForm />
+        <TweetList />
+      </main>  
+    </body>
   );
 }
 
